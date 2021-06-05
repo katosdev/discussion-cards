@@ -32,7 +32,7 @@ app.initializers.add('dem13n/discussion/cards', () => {
         }, app.translator.trans('core.forum.discussion_list.load_more_button')
       );
     }
-    if (state.empty()) {
+    if (state.isEmpty()) {
       const text = app.translator.trans('core.forum.discussion_list.empty_text');
       return <div className="DiscussionList">{m(Placeholder, {text})}</div>;
     }
