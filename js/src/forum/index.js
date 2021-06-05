@@ -1,11 +1,11 @@
-import app from 'flarum/app';
-import {extend, override} from 'flarum/extend';
-import DiscussionList from 'flarum/components/DiscussionList';
-import DiscussionListState from 'flarum/states/DiscussionListState';
-import IndexPage from 'flarum/components/IndexPage';
-import LoadingIndicator from 'flarum/components/LoadingIndicator';
-import Placeholder from 'flarum/components/Placeholder';
-import Button from 'flarum/components/Button';
+import app from 'flarum/forum/app';
+import {extend, override} from 'flarum/common/extend';
+import DiscussionList from 'flarum/forum/components/DiscussionList';
+import DiscussionListState from 'flarum/forum/states/DiscussionListState';
+import IndexPage from 'flarum/forum/components/IndexPage';
+import LoadingIndicator from 'flarum/common/components/LoadingIndicator';
+import Placeholder from 'flarum/common/components/Placeholder';
+import Button from 'flarum/common/components/Button';
 import CardItem from './components/CardItem';
 import ListItem from './components/ListItem';
 
